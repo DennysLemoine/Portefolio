@@ -1,6 +1,15 @@
+.sectionIntroducing {
+    display: flex;
+    flex-direction: column;
+}
+
 .containerPictureHome {
     position: relative;
-    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 245px;
+    height: 140px;
+    margin-bottom: 90px;
 }
 
 .containerPicture {
@@ -42,4 +51,40 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
+}
+
+.introducing {
+    font-family: "Playfair Display", serif;
+}
+
+.containerH1 {
+    position: relative;
+    display: flex;
+    width: 320px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.imgH1 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: 5px;
+    top: -5px;
+}
+
+.introducing h2 {
+    font-family: Vollkorn, serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E79A3F;
+    padding: 6px 0 4px 0;
+}
+
+.introducingP {
+    font-family: Vollkorn, serif;
+    font-size: 15px;
 }
