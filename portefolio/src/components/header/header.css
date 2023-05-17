@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yuhiLogo {
+    width: 60px;
+    height: 100%;
+}
+
+.nav {
+    font-family: "Playfair Display", serif;
+    display: flex;
+}
+
+/*REF POUR DESKTOP : */
+
+/*.divLinkOrange {*/
+/*    display: inline-block;*/
+/*    height: 15px;*/
+/*    width: 15px;*/
+/*    background-color: #E79A3F;*/
+/*    border : 1px solid #E79A3F;*/
+/*    border-radius: 30px;*/
+/*    margin-right: 5px;*/
+/*    font-size: 10px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.divLinkOrange:hover {*/
+/*    width: 80px;*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.navLinkOrange {*/
+/*    display: block;*/
+/*    color: #E79A3F;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    text-decoration: none;*/
+/*}*/
+
+.divLinkOrange {
+    display: inline-block;
+    height: 15px;
+    width: auto;
+    padding: 0 15px 15px 5px;
+    background-color: transparent;
+    border : 1px solid #E79A3F;
+    border-radius: 30px;
+    margin-right: 5px;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.navLinkOrange {
+    display: block;
+    color: #E79A3F;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+.divLinkGreen {
+    display: inline-block;
+    height: 15px;
+    width: auto;
+    padding: 0 15px 15px 5px;
+    border : 1px solid #7DC264;
+    border-radius: 30px;
+    margin-right: 5px;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.navLinkGreen {
+    display: block;
+    color: #7DC264;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+.divLinkBlue {
+    display: inline-block;
+    height: 15px;
+    width: auto;
+    padding: 0 15px 15px 5px;
+    border : 1px solid #649FC2;
+    border-radius: 30px;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.navLinkBlue {
+    display: block;
+    color: #649FC2;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
