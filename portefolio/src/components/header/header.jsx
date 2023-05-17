@@ -21,15 +21,21 @@ function Header() {
                 {/*<button onClick={() => sectionRef.current.scrollIntoView({ behavior: 'smooth' })}>*/}
                 {/*    À propos*/}
                 {/*</button>*/}
-                <button className='buttonA'>a</button>
-                <button className='buttonB'>b</button>
-                <button className='buttonC'>c</button>
-                <Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='linkedinLogo'>
-                    <img src={linkedinLogo} alt="Logo de LinkedIn"/>
-                </Link>
-                <Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='githubLogo'>
-                    <img src={githubLogo} alt="Logo de GitHub"/>
-                </Link>
+                <div className='divLinkOrange'>
+                    <Link to='à propos' className='navLinkOrange'>à propos</Link>
+                </div>
+                <div className='divLinkGreen'>
+                    <Link to='mes compétences' className='navLinkGreen'>compétences</Link>
+                </div>
+                <div className='divLinkBlue'>
+                    <Link to='mes projets' className='navLinkBlue'>mes projets</Link>
+                </div>
+                {/*<Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='linkedinLogo'>*/}
+                {/*    <img src={linkedinLogo} alt="Logo de LinkedIn"/>*/}
+                {/*</Link>*/}
+                {/*<Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='githubLogo'>*/}
+                {/*    <img src={githubLogo} alt="Logo de GitHub"/>*/}
+                {/*</Link>*/}
             </nav>
         </header>
     )
