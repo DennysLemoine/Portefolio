@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yuhiLogo {
+    width: 70px;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav button {
+    margin-right: 5px;
+}
+
+.linkedinLogo {
+    margin-right: 5px;
+}
+
+/*.githubLogo {*/
+/*    margin-right: 5px;*/
+/*}*/

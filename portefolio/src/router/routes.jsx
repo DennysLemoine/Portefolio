@@ -6,8 +6,8 @@ import Footer from '../components/footer/footer';
 
 const Loading = () => <div>Loading...</div>
 
-const Home = lazy(() => import('.pages/home/home'));
-const Error = lazy(() => import('./pages/error/error'));
+const Home = lazy(() => import('../pages/home/home'));
+const Error = lazy(() => import('../pages/error/error'));
 
 export const RoutesPage = () => {
     return (

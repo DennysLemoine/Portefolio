@@ -18,7 +18,7 @@ code {
 .container {
   position: relative;
   min-height: 100vh;
-  padding-bottom: 210px;
+  /*padding-bottom: 210px; A VOIR QUAND LE FOOTER SERA A FAIRE */
   margin-left: auto;
   margin-right: auto;
   width: 95%;
