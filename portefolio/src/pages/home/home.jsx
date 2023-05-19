@@ -9,12 +9,10 @@ function Home() {
         <>
             <section className='sectionIntroducing'>
                 <div className='containerPictureHome'>
-                    <div className='containerPicture'>
-                        <img className='pictureHome' src={profilPicture} alt="Photo de Dennys Lemoine"/>
-                    </div>
-                    <div className='sphere01'/>
-                    <div className='sphere02'/>
-                    <div className='sphere03'/>
+                    <img className='pictureHome' src={profilPicture} alt="Photo de Dennys Lemoine"/>
+                    <span className='sphere01'/>
+                    <span className='sphere02'/>
+                    <span className='sphere03'/>
                 </div>
                 <div className='introducing'>
                     <div className='containerH1'>
