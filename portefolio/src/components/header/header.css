@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .yuhiLogo {
@@ -12,6 +13,7 @@
 .nav {
     font-family: "Playfair Display", serif;
     display: flex;
+    height: 20px;
 }
 
 /*REF POUR DESKTOP : */
@@ -42,11 +44,10 @@
 /*}*/
 
 .divLinkOrange {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    padding: 0 15px 15px 5px;
-    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
     border : 1px solid #E79A3F;
     border-radius: 30px;
     margin-right: 5px;
@@ -55,18 +56,15 @@
 }
 
 .navLinkOrange {
-    display: block;
     color: #E79A3F;
-    top: 0;
-    left: 0;
     text-decoration: none;
 }
 
 .divLinkGreen {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    padding: 0 15px 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
     border : 1px solid #7DC264;
     border-radius: 30px;
     margin-right: 5px;
@@ -83,10 +81,10 @@
 }
 
 .divLinkBlue {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    padding: 0 15px 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
     border : 1px solid #649FC2;
     border-radius: 30px;
     font-size: 10px;

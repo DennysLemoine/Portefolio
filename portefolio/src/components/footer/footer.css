@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+    font-family: Vollkorn, serif;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.logoYuhiWhite {
+    width: 60px;
+    height: 100%;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.footer div {
+    display: flex;
+    margin: 0 110px;
+    padding-bottom: 30px;
+}
+
+.footerLogo {
+    width: 20px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
