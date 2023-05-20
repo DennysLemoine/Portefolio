@@ -1,26 +1,30 @@
+
 import home from './home.css'
 
 import backgroundImg from '../../assets/Background.png'
-import profilPicture from '../../assets/dennys_pp.webp'
 import starLogo from '../../assets/shining.png'
+import aboutLogo from '../../assets/information.png'
+import skillLogo from '../../assets/creative.png'
+import graduateLogo from '../../assets/graduation-cap.png'
+import blueprintLogo from '../../assets/blueprint.png'
+
+import Introduction from "../../components/introduction/introduction";
 
 function Home() {
-    return(
+    return (
         <>
+            <img className='backgroundImg' src={backgroundImg} alt="Image d'arrière plan"/>
             <section className='sectionIntroducing'>
-                <div className='containerPictureHome'>
-                    <img className='pictureHome' src={profilPicture} alt="Photo de Dennys Lemoine"/>
-                    <span className='sphere01'/>
-                    <span className='sphere02'/>
-                    <span className='sphere03'/>
-                </div>
-                <div className='introducing'>
-                    <div className='containerH1'>
-                        <h1>Bonjour, je suis Dennys Lemoine</h1>
-                        <img className='imgH1' src={starLogo} alt="Logo de scintillement"/>
-                    </div>
-                    <h2 className='introducingH2'>DÉVELOPPEUR WEB FRONT-END</h2>
-                    <p className='introducingP'>Expérience dans la conception de sites web  responsives et accessibles. Disponible pour des projets de  développement web intéressants et stimulants.</p>
+                <Introduction/>
+            </section>
+            <section className='sectionAbout'>
+                <span className='sphere04'/>
+                <span className='sphere05'/>
+                <span className='sphere06'/>
+                <h2>À propos</h2>
+                <h3>DÉVELOPPEUR WEB FRONT-END</h3>
+                <div>
+                    <p>Suite à plusieurs années dans l'univers de la 3D, j'ai décidé de me lancer dans une reconversion au métier de développeur front-end ! Toujours avive de créativité, je souhaite désormais pouvoir amener mes compétences dans la réalisation de sites web !</p>
                 </div>
             </section>
         </>
