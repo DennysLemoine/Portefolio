@@ -8,3 +8,44 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.containerH2 {
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+    text-decoration: underline solid 1px;
+}
+
+.containerH2 h2 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.containerH2 img {
+    position: absolute;
+    width: 35px;
+    right: -35px;
+    top: -25px;
+}
+
+.sectionAbout h3 {
+    font-size: 19px;
+    font-family: Vollkorn, serif;
+    font-weight: 400;
+    color: #E79A3F;
+    margin-bottom: 30px;
+}
+
+.containerP {
+    border: 1px solid black;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.containerP p {
+    font-family: Vollkorn, serif;
+    font-weight: 400;
+    font-size: 15px;
+}
