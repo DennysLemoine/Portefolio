@@ -1,3 +1,12 @@
+.sectionIntroducing {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .containerPictureHome {
     position: relative;
     margin-right: auto;
