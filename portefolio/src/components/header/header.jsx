@@ -30,12 +30,6 @@ function Header() {
                 <div className='divLinkBlue'>
                     <Link to='mes projets' className='navLinkBlue'>mes projets</Link>
                 </div>
-                {/*<Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='linkedinLogo'>*/}
-                {/*    <img src={linkedinLogo} alt="Logo de LinkedIn"/>*/}
-                {/*</Link>*/}
-                {/*<Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='githubLogo'>*/}
-                {/*    <img src={githubLogo} alt="Logo de GitHub"/>*/}
-                {/*</Link>*/}
             </nav>
         </header>
     )

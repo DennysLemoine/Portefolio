@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+    padding: 0 7px;
+    backdrop-filter: blur(15px) brightness(1.1);
 }
 
 .yuhiLogo {
