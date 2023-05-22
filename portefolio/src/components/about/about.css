@@ -6,10 +6,46 @@
     flex-direction: column;
     text-align: center;
     width: 95%;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
 }
+
+.sphere04 {
+    position: absolute;
+    bottom: -15px;
+    right: 90px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(#F6C961, #B82211);
+    z-index: -1;
+}
+
+.sphere05 {
+    position: absolute;
+    top: 70px;
+    right: -50px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: linear-gradient(#A3F087, #026570);
+    z-index: -1;
+}
+
+
+.sphere06 {
+    position: absolute;
+    bottom: 60px;
+    left: -40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(#7ECFFF, #59208B);
+    z-index: -1;
+}
+
 
 .containerH2 {
     position: relative;
@@ -50,38 +86,4 @@
     font-family: Vollkorn, serif;
     font-weight: 400;
     font-size: 15px;
-}
-
-.sphere04 {
-    position: absolute;
-    bottom: -15px;
-    right: 90px;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: linear-gradient(#F6C961, #B82211);
-    z-index: -1;
-}
-
-.sphere05 {
-    position: absolute;
-    top: 70px;
-    right: -50px;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background: linear-gradient(#A3F087, #026570);
-    z-index: -1;
-}
-
-
-.sphere06 {
-    position: absolute;
-    bottom: 60px;
-    left: -40px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: linear-gradient(#7ECFFF, #59208B);
-    z-index: -1;
 }
