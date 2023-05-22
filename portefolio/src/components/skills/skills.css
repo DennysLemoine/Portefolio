@@ -1,0 +1,37 @@
+.sectionSkills {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.containerH2 {
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+    text-decoration: underline solid 1px;
+}
+
+.containerH2 h2 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.containerH2 img {
+    position: absolute;
+    width: 35px;
+    right: -35px;
+    top: -25px;
+}
+
+.containerSkills {
+    border: 1px solid black;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    padding: 20px;
+}
