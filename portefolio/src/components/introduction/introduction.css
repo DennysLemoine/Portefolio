@@ -1,3 +1,13 @@
+.sectionIntroducing {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 150px;
+}
+
 .containerPictureHome {
     position: relative;
     margin-right: auto;
@@ -51,7 +61,6 @@
 
 .introducing {
     font-family: "Playfair Display", serif;
-    padding-bottom: 100px;
 }
 
 .containerH1 {

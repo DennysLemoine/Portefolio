@@ -1,0 +1,87 @@
+.sectionAbout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.containerH2 {
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+    text-decoration: underline solid 1px;
+}
+
+.containerH2 h2 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.containerH2 img {
+    position: absolute;
+    width: 35px;
+    right: -35px;
+    top: -25px;
+}
+
+.sectionAbout h3 {
+    font-size: 19px;
+    font-family: Vollkorn, serif;
+    font-weight: 400;
+    color: #E79A3F;
+    margin-bottom: 30px;
+}
+
+.containerP {
+    border: 1px solid black;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.containerP p {
+    font-family: Vollkorn, serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sphere04 {
+    position: absolute;
+    bottom: -15px;
+    right: 90px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(#F6C961, #B82211);
+    z-index: -1;
+}
+
+.sphere05 {
+    position: absolute;
+    top: 70px;
+    right: -50px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: linear-gradient(#A3F087, #026570);
+    z-index: -1;
+}
+
+
+.sphere06 {
+    position: absolute;
+    bottom: 60px;
+    left: -40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(#7ECFFF, #59208B);
+    z-index: -1;
+}
