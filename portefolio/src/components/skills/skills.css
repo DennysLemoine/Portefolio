@@ -13,7 +13,7 @@
     position: relative;
     display: inline-block;
     font-family: "Playfair Display", serif;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-decoration: underline solid 1px;
 }
 
@@ -29,9 +29,138 @@
     top: -25px;
 }
 
-.containerSkills {
+.containerSkills01 {
+    position: relative;
+    font-family: Vollkorn, serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
     border: 1px solid black;
+    gap: 10px;
     backdrop-filter: blur(1px);
     border-radius: 20px;
     padding: 20px;
+}
+
+.containerSkillP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divSkillBorder {
+    border: 1px solid #e8e8e8;
+    border-radius: 50px;
+}
+
+.divSkillHtml {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 80%;
+}
+
+.divSkillCss {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 80%;
+}
+
+.divSkillJs {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 60%;
+}
+
+.divSkillReact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 60%;
+}
+
+.divSkillNode {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 35%;
+}
+
+.divSkillSeo {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 50%;
+}
+
+.divSkillPhotoshop {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 60%;
+}
+
+.divSkillInfographie {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 70%;
+}
+
+.divSkill3d {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 80%;
+}
+
+.containerSkillsButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.button2 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
 }
