@@ -9,6 +9,40 @@
     margin-bottom: 150px;
 }
 
+.sphere07 {
+    position: absolute;
+    top: 60px;
+    right: 295px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(#F6C961, #B82211);
+    z-index: -1;
+}
+
+.sphere08 {
+    position: absolute;
+    top: 303px;
+    left: 71px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(#A3F087, #026570);
+    z-index: -1;
+}
+
+
+.sphere09 {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(#7ECFFF, #59208B);
+    z-index: -1;
+}
+
 .containerH2 {
     position: relative;
     display: inline-block;
