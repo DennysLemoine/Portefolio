@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useRef, useEffect} from "react";
 
 import skills from './skills.css'
 
@@ -6,11 +6,41 @@ import skillLogo from '../../assets/creative.png'
 
 function Skills() {
 
-    const [visibleDiv, setVisibleDiv] = useState(false);
+    const [visibleDiv, setVisibleDiv] = useState('div1');
+    const touchStartRef = useRef(null);
 
-    const toggleSkills = () => {
-        setVisibleDiv(!visibleDiv);
+    const toggleSkills = (divId) => {
+        setVisibleDiv(divId);
     };
+
+    // CONFIGURATION POUR SLIDE DIV POUR MOBILE/TABLETTE
+    const handleTouchStart = (event) => {
+        touchStartRef.current = event.touches[0].clientX;
+    };
+
+    const handleTouchEnd = (event) => {
+        const touchEnd = event.changedTouches[0].clientX;
+        const touchDifference = touchStartRef.current - touchEnd;
+
+        if (touchDifference > 50 || visibleDiv !== 'div1') {
+            // SWIPE POUR ALLER A LA DIV SUIVANTE
+            setVisibleDiv('div2');
+        } else if (touchDifference < -50) {
+            // SWIPE POUR REVENIR A LA DIV PRECEDENTE
+            setVisibleDiv('div1');
+        }
+    };
+
+    useEffect(() => {
+        const containerSkills = document.querySelector('.containerSkills');
+        containerSkills.addEventListener('touchstart', handleTouchStart);
+        containerSkills.addEventListener('touchend', handleTouchEnd);
+
+        return () => {
+            containerSkills.removeEventListener('touchstart', handleTouchStart);
+            containerSkills.removeEventListener('touchend', handleTouchEnd);
+        };
+    }, []);
 
     return (
         <section className='sectionSkills'>
@@ -22,7 +52,7 @@ function Skills() {
                 <img src={skillLogo} alt="Logo créatif"/>
             </div>
             <div className='containerSkills'>
-                <div className={visibleDiv ? 'containerSkills01 hide' : 'containerSkills01'}>
+                <div className={visibleDiv === 'div1' ? 'containerSkills01' : 'containerSkills01 hide'}>
                     <div className='containerSkill'>
                         <div className='containerSkillP'>
                             <p>0%</p>
@@ -132,7 +162,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
-                <div className={visibleDiv ? 'containerSkills02' : 'containerSkills02 hide'}>
+                <div className={visibleDiv === 'div2' ? 'containerSkills02' : 'containerSkills02 hide'}>
                     <div className='containerSkillGraduate'>
                         <div className='containerGraduateRelatif'>
                             <span className='lineSkill'></span>
@@ -140,14 +170,14 @@ function Skills() {
                             <span className='circleSkillP02'></span>
                             <span className='circleSkillP03'></span>
                             <p className='skillBts'>BTS MUC<br/>2017</p>
-                            <p className='skill3d'>MODÉLISATION / ANIMATION 3D<br/>2021</p>
+                            <p className='skill3d'>MODÉLISATION<br/>ANIMATION 3D<br/>2021</p>
                             <p className='skillDev'>DÉVELOPPEUR WEB<br/>2023</p>
                         </div>
                     </div>
                 </div>
                 <span className='containerSkillsButtons'>
-                    <span className='button1' onClick={toggleSkills}></span>
-                    <span className='button2' onClick={toggleSkills}></span>
+                    <span className={visibleDiv === 'div1' ? 'button1 active' : 'button1'} onClick={() => toggleSkills('div1')}></span>
+                    <span className={visibleDiv === 'div2' ? 'button2 active' : 'button2'} onClick={() => toggleSkills('div2')}></span>
                 </span>
             </div>
         </section>
