@@ -9,11 +9,45 @@
     margin-bottom: 150px;
 }
 
+.sphere07 {
+    position: absolute;
+    top: 60px;
+    right: 295px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(#F6C961, #B82211);
+    z-index: -1;
+}
+
+.sphere08 {
+    position: absolute;
+    top: 303px;
+    left: 71px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(#A3F087, #026570);
+    z-index: -1;
+}
+
+
+.sphere09 {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(#7ECFFF, #59208B);
+    z-index: -1;
+}
+
 .containerH2 {
     position: relative;
     display: inline-block;
     font-family: "Playfair Display", serif;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-decoration: underline solid 1px;
 }
 
@@ -30,8 +64,256 @@
 }
 
 .containerSkills {
+    width: 100%;
+    height: 630px;
+    border-radius: 20px;
     border: 1px solid black;
     backdrop-filter: blur(1px);
+    padding: 20px;
+}
+
+.containerSkills01 {
+    position: relative;
+    font-family: Vollkorn, serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.containerSkillP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divSkillBorder {
+    border: 1px solid #e8e8e8;
+    border-radius: 50px;
+}
+
+.divSkillHtml {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 80%;
+}
+
+.divSkillCss {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 80%;
+}
+
+.divSkillJs {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 60%;
+}
+
+.divSkillReact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 60%;
+}
+
+.divSkillNode {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 35%;
+}
+
+.divSkillSeo {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 50%;
+}
+
+.divSkillPhotoshop {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 60%;
+}
+
+.divSkillInfographie {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 70%;
+}
+
+.divSkill3d {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 3px 10px;
+    background: linear-gradient(to right, #F6C961, #B82211);
+    width: 80%;
+}
+
+.containerSkill02 {
+    font-family: Vollkorn, serif;
+    width: 100%;
+    border: 1px solid black;
     border-radius: 20px;
     padding: 20px;
+}
+
+.containerSkillGraduate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Vollkorn, serif;
+}
+
+.containerGraduateRelatif {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.lineSkill {
+    position: absolute;
+    margin: 50px auto;
+    left: 0;
+    right: 150px;
+    top: 30px;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient( #F6C961, #B82211);
+    border-radius: 50px;
+}
+
+.circleSkillP01 {
+    position: absolute;
+    margin: 50px auto;
+    top: 25px;
+    left: 0;
+    right: 150px;
+    width: 15px;
+    height: 15px;
+    background-color: #f3c65f;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.circleSkillP02 {
+    position: absolute;
+    margin: 50px auto;
+    bottom: 65px;
+    left: 0;
+    right: 150px;
+    width: 15px;
+    height: 15px;
+    background-color: #d36f36;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.circleSkillP03 {
+    position: absolute;
+    margin: 50px auto;
+    bottom: -130px;
+    left: 0;
+    right: 150px;
+    width: 15px;
+    height: 15px;
+    background-color: #b92713;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.skillBts {
+    position: absolute;
+    top: 60px;
+    left: 145px;
+    font-size: 16px;
+    color: #E79A3F;
+}
+
+.skill3d {
+    position: absolute;
+    bottom: 90px;
+    left: 120px;
+    font-size: 16px;
+    color: #E79A3F;
+}
+
+.skillDev {
+    position: absolute;
+    bottom: -90px;
+    left: 105px;
+    font-size: 16px;
+    color: #E79A3F;
+}
+
+.containerSkillsButtons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+
+.button1 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.button1.active {
+    background-color: black;
+}
+
+.button2 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.button2.active {
+    background-color: black;
+}
+
+.hide {
+    display: none;
 }
