@@ -1,3 +1,5 @@
+import data from '../../projects.json'
+
 import home from './home.css'
 
 import backgroundImg from '../../assets/Background.png'
@@ -14,7 +16,7 @@ function Home() {
             <Introduction/>
             <About/>
             <Skills/>
-            <Projects/>
+            <Projects data={data}/>
         </>
     )
 }

@@ -12,8 +12,9 @@
 .containerProjects {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
     width: 100%;
-    height: 630px;
+    height: auto;
     border-radius: 20px;
     border: 1px solid black;
     backdrop-filter: blur(5px);
@@ -21,5 +22,36 @@
 }
 
 .containerProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 175px;
+    padding: 10px;
+}
 
+.buttonModal {
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.buttonModal img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.containerProject p {
+    font-family: Vollkorn, serif;
+    font-weight: 400;
+    font-size: 15px;
 }

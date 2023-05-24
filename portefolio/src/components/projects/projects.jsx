@@ -1,13 +1,26 @@
-import React from "react";
+import React, {useState} from "react"
+import Modal from "../modal-projects/modal-projects";
 
 import project from './projects.css'
 
 import blueprintLogo from '../../assets/blueprint.png'
 
+function Projects({data}) {
 
-function Projects() {
+    const [isOpen, setIsOpen] = useState(false);
+    const [modalData, setModalData] = useState(null);
 
-    return(
+    const openModal = (data) => {
+        setIsOpen(true);
+        setModalData(data);
+    }
+
+    const closeModal = () => {
+        setIsOpen(false);
+        setModalData(null);
+    }
+
+    return (
         <section className='sectionProjects'>
             <span className='sphere10'/>
             <span className='sphere11'/>
@@ -17,10 +30,16 @@ function Projects() {
                 <img src={blueprintLogo} alt="Logo blueprint"/>
             </div>
             <div className='containerProjects'>
-                <div className='containerProject'>
-                    <img src="" alt=""/>
-                </div>
+                {data.map((projects) => (
+                    <div className='containerProject' key={projects.id}>
+                        <button className='buttonModal' onClick={() => openModal(projects)}>
+                            <img src={projects.image_pp} alt="Miniature du projet"/>
+                        </button>
+                        <p>{projects.name}</p>
+                    </div>
+                ))}
             </div>
+            <Modal isOpen={isOpen} closeModal={closeModal} data={modalData} />
         </section>
     )
 }

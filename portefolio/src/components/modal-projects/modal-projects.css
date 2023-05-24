@@ -1,0 +1,62 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    margin-bottom: 80px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bannerImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-content h2 {
+    font-family: "Playfair Display", serif;
+    color: #E79A3F;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.modal-content p {
+    font-family: Vollkorn, serif;
+    font-size: 15px;
+    text-align: center;
+    text-justify: auto;
+}
+
+.githubLogo {
+    width: 30px;
+    height: 30px;
+}
