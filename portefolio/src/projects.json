@@ -25,32 +25,32 @@
     "id": 3,
     "name": "Débugger/Optimiser un site",
     "description": "Je suis développeur front-end en freelance. Je me suis permis de contacter Nani pour lui proposer mes services en terme d'optimisation et de SEO pour son site web. Ma mission sera de le rendre plus rapide et optimisé pour ses visiteurs (potentiel client), et mettre en avant une meilleure accessibilité (SEO) pour un meilleur référencement, qui donnera à terme de meilleurs résultats concernant les visites sur son site. Et donc à terme, augmenter sa clientèle.",
-    "problematique": " ",
-    "compétence apprises": " ",
-    "image_pp": " ",
-    "image_banner": " ",
-    "githubLink": " "
+    "problematique": "Rechercher et proposer une amélioration SEO et otpimisation pour son site web.",
+    "compétence apprises": "Breakpoint Chrome DevTools, audit Lighthouse, utilisation images WebP, Preload/Preconnect, Defer, Bootstrap minimisé, apprentissage de l'accessibilité d'un site, référencement local (RichSnippet).",
+    "image_pp": "https://drive.google.com/file/d/1rAZHvFHnHt6nLa1FWoKAQnMaaO9_nMX3/view?usp=drive_link",
+    "image_banner": "https://drive.google.com/file/d/1xugbFg_EXgjDmWFm40vDY8BESQH_kmWc/view?usp=drive_link",
+    "githubLink": "https://github.com/DennysLemoine/Debugguer_Optimiser_un_site_de_photographe"
   },
 
   {
     "id": 4,
-    "name": "Projet 4",
-    "description": " ",
-    "problematique": " ",
-    "compétence apprises": " ",
-    "image_pp": " ",
-    "image_banner": " ",
-    "githubLink": " "
+    "name": "Kasa",
+    "description": "Je suis développeur front-end en freelance. J'ai été recruté pour développer la nouvelle plateforme web de Kasa. Le site a été codé y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, souhaite une refonte totale pour passer à une stack complète en Javascript avec NodeJS côté back, et React côté front.",
+    "problematique": "Découverte et apprentissage de React.js afin de réaliser tout le front du site depuis la maquette.",
+    "compétence apprises": "Découpage logique du dossier frontend, utilisation de Lazy/Suspense, utilisation de différents composants, utilisation des hooks useState, useEffect, traitement des données depuis un fichier JSON.",
+    "image_pp": "https://drive.google.com/file/d/1B82ERkKpB04lob1Hy0i0bSknpYuyzpcH/view?usp=drive_link",
+    "image_banner": "https://drive.google.com/file/d/1HS7E0AQ3ZCIShvVTGTCixXEFvMVHLMJf/view?usp=drive_link",
+    "githubLink": "https://github.com/DennysLemoine/Kasa"
   },
 
   {
     "id": 5,
-    "name": "Projet 5",
-    "description": " ",
-    "problematique": " ",
-    "compétence apprises": " ",
-    "image_pp": " ",
-    "image_banner": " ",
-    "githubLink": " "
+    "name": "Mon Vieux Grimoire",
+    "description": "Je suis développeur back-end en freelance depuis un an dans le région de Lille. J'ai pour habitude de travailler avec Kevin, un développeur front-end plus expérimenté, et qui me contacte pour me proposer un travail avec lui. J'aurais pour mission de réaliser le backend du frontend de Kevin, pour une petite chaîne de librairies, qui souhaite ouvrir un site de référencement et de notations de livres.",
+    "problematique": "Réalisation d'un backend pour la première fois avec des attentes techniques, comme l'authentification d'utilisateurs, publication/modification/suppression d'un objet, renforcement de la sécurité auprès de la BD.",
+    "compétence apprises": "Apprentissage de la réalisation d'un backend avec le MERN, création d'une base de donnée, création de models (schema mongoose), CRUD, création de controllers ainsi que des middlewares, Bcrypt (hash, compare), Jsonwebtoken (sign, verify), Multer pour la gestion des images ainsi que Sharp pour l'optimisation de ces dernières, Validator (email/password), Express Rate Limit, Mongo Sanitize et .env.",
+    "image_pp": "https://drive.google.com/file/d/1E_bYvMqkdHkJb_v2rLpPU8BW_4SpMXmq/view?usp=drive_link",
+    "image_banner": "https://drive.google.com/file/d/1kJXeXWIw0SUo3Do51BLcedvuEqS6zS0I/view?usp=drive_link",
+    "githubLink": "https://github.com/DennysLemoine/Mon_Vieux_Grimoire"
   }
 ]
