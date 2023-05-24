@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "BOOKI",
+    "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS, fonctionnelle de manière responsive.",
+    "problematique": "Apprendre à respecter la maquette donnée pour la réalisation du site, en parallèle de l'apprentissage de HTML/CSS",
+    "compétence apprises": "Base HTML et CSS, rendre le site responsive.",
+    "image_pp": "https://drive.google.com/file/d/1-3n00RzVctOWOmpDT_SktKQnIqeqQBHO/view?usp=drive_link",
+    "image_banner": "https://drive.google.com/file/d/1TG85raHNAoE9fi_El1K8BOI1UnNvobqp/view?usp=drive_link",
+    "githubLink": "https://github.com/DennysLemoine/Booki"
+  },
+
+  {
+    "id": 2,
+    "name": "Portefolio Architecte",
+    "description": "Je suis développeur front-end dans l'agence ArchiWebos.Ayant terminé mon dernier projet avec de l'avance, je suis envoyé en renfort dans une équipe qui travaille sur la conception du site portefolio d'une artichiecte d'intérieur.",
+    "problematique": "Apprentissage de Javascript vanilla",
+    "compétence apprises": "Gestion/Traitement des données, appels API, utilisation des fetchs, authentification de l'utilisateur, création de modales, suppression de travaux, l'envoi de nouveaux travaux.",
+    "image_pp": "https://drive.google.com/file/d/1aYk0Rsi18zpLnNVLRbAG_Bux-QhiQdr-/view?usp=drive_link",
+    "image_banner": "https://drive.google.com/file/d/1kU3qchsMS0T3Cx3vP3rpHFtdB1PAva8K/view?usp=drive_link",
+    "githubLink": "https://github.com/DennysLemoine/Portfolio-architecte-sophie-bluel"
+  },
+
+  {
+    "id": 3,
+    "name": "Débugger/Optimiser un site",
+    "description": "Je suis développeur front-end en freelance. Je me suis permis de contacter Nani pour lui proposer mes services en terme d'optimisation et de SEO pour son site web. Ma mission sera de le rendre plus rapide et optimisé pour ses visiteurs (potentiel client), et mettre en avant une meilleure accessibilité (SEO) pour un meilleur référencement, qui donnera à terme de meilleurs résultats concernant les visites sur son site. Et donc à terme, augmenter sa clientèle.",
+    "problematique": " ",
+    "compétence apprises": " ",
+    "image_pp": " ",
+    "image_banner": " ",
+    "githubLink": " "
+  },
+
+  {
+    "id": 4,
+    "name": "Projet 4",
+    "description": " ",
+    "problematique": " ",
+    "compétence apprises": " ",
+    "image_pp": " ",
+    "image_banner": " ",
+    "githubLink": " "
+  },
+
+  {
+    "id": 5,
+    "name": "Projet 5",
+    "description": " ",
+    "problematique": " ",
+    "compétence apprises": " ",
+    "image_pp": " ",
+    "image_banner": " ",
+    "githubLink": " "
+  }
+]
