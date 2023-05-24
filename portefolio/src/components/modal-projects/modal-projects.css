@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     overflow: auto;
-    margin-bottom: 80px;
 }
 
 .modal-content {
@@ -22,10 +21,19 @@
     border: 1px solid black;
     border-radius: 20px;
     backdrop-filter: blur(8px);
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 20px;
     gap: 10px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .bannerContainer {
@@ -59,4 +67,5 @@
 .githubLogo {
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }

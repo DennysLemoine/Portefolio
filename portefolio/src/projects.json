@@ -5,7 +5,7 @@
     "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS, fonctionnelle de manière responsive.",
     "problematique": "Apprendre à respecter la maquette donnée pour la réalisation du site, en parallèle de l'apprentissage de HTML/CSS",
     "competences": "Base HTML et CSS, rendre le site responsive.",
-    "image_pp": "https://drive.google.com/uc?id=1-3n00RzVctOWOmpDT_SktKQnIqeqQBHO",
+    "image_pp": "https://drive.google.com/uc?id=1pNOOIuQ46pSakrJ_5r5qEq-Em3vJRNGc",
     "image_banner": "https://drive.google.com/uc?id=1TG85raHNAoE9fi_El1K8BOI1UnNvobqp",
     "githubLink": "https://github.com/DennysLemoine/Booki"
   },
@@ -40,7 +40,7 @@
     "problematique": "Découverte et apprentissage de React.js afin de réaliser tout le front du site depuis la maquette.",
     "competences": "Découpage logique du dossier frontend, utilisation de Lazy/Suspense, utilisation de différents composants, hooks useState et useEffect, traitement des données depuis un fichier JSON.",
     "image_pp":
-    "https://drive.google.com/uc?id=1T7g1xV0ITT02mQiKpHuTolA9ztR4NOJr",
+    "https://drive.google.com/uc?id=1ARnP7cTvp9RwPLkAYkTYgZ13ry-TiNCw",
     "image_banner": "https://drive.google.com/uc?id=1HS7E0AQ3ZCIShvVTGTCixXEFvMVHLMJf",
     "githubLink": "https://github.com/DennysLemoine/Kasa"
   },
