@@ -22,8 +22,8 @@
 
 .sphere08 {
     position: absolute;
-    top: 303px;
-    left: 71px;
+    top: 260px;
+    left: 50px;
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -68,7 +68,7 @@
     height: 630px;
     border-radius: 20px;
     border: 1px solid black;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(5px);
     padding: 20px;
 }
 
