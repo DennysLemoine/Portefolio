@@ -1,3 +1,5 @@
+import data from '../../projects.json'
+
 import home from './home.css'
 
 import backgroundImg from '../../assets/Background.png'
@@ -5,6 +7,7 @@ import backgroundImg from '../../assets/Background.png'
 import Introduction from "../../components/introduction/introduction";
 import About from "../../components/about/about";
 import Skills from "../../components/skills/skills";
+import Projects from "../../components/projects/projects"
 
 function Home() {
     return (
@@ -13,6 +16,7 @@ function Home() {
             <Introduction/>
             <About/>
             <Skills/>
+            <Projects data={data}/>
         </>
     )
 }

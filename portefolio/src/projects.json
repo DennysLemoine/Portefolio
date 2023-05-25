@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Booki",
+    "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS, fonctionnelle de manière responsive.",
+    "problematique": "Apprendre à respecter la maquette donnée pour la réalisation du site, en parallèle de l'apprentissage de HTML/CSS",
+    "competences": "Base HTML et CSS, rendre le site responsive.",
+    "image_pp": "https://drive.google.com/uc?id=1pNOOIuQ46pSakrJ_5r5qEq-Em3vJRNGc",
+    "image_banner": "https://drive.google.com/uc?id=1TG85raHNAoE9fi_El1K8BOI1UnNvobqp",
+    "githubLink": "https://github.com/DennysLemoine/Booki"
+  },
+
+  {
+    "id": 2,
+    "name": "Portefolio Architecte",
+    "description": "Je suis développeur front-end dans l'agence ArchiWebos.Ayant terminé mon dernier projet avec de l'avance, je suis envoyé en renfort dans une équipe qui travaille sur la conception du site portefolio d'une architecte d'intérieur.",
+    "problematique": "Apprentissage de Javascript vanilla",
+    "competences": "Gestion/Traitement des données, appels API, utilisation des fetchs, authentification de l'utilisateur, création de modales, suppression de travaux, l'envoi de nouveaux travaux.",
+    "image_pp": "https://drive.google.com/uc?id=1aYk0Rsi18zpLnNVLRbAG_Bux-QhiQdr-",
+    "image_banner": "https://drive.google.com/uc?id=1kU3qchsMS0T3Cx3vP3rpHFtdB1PAva8K",
+    "githubLink": "https://github.com/DennysLemoine/Portfolio-architecte-sophie-bluel"
+  },
+
+
+  {
+    "id": 3,
+    "name": "Débugger/Optimiser un site",
+    "description": "Je suis développeur front-end en freelance. Je me suis permis de contacter Nani pour lui proposer mes services en terme d'optimisation et de SEO pour son site web. Ma mission sera de le rendre plus rapide et optimisé pour ses visiteurs (potentiel client), et mettre en avant une meilleure accessibilité (SEO) pour un meilleur référencement, qui donnera à terme de meilleurs résultats concernant les visites sur son site. Et donc à terme, augmenter sa clientèle.",
+    "problematique": "Rechercher et proposer une amélioration SEO et otpimisation pour son site web.",
+    "competences": "Breakpoint Chrome DevTools, audit Lighthouse, utilisation images WebP, Preload/Preconnect, Defer, Bootstrap minimisé, apprentissage de l'accessibilité d'un site, référencement local (RichSnippet).",
+    "image_pp": "https://drive.google.com/uc?id=1rAZHvFHnHt6nLa1FWoKAQnMaaO9_nMX3",
+    "image_banner": "https://drive.google.com/uc?id=1xugbFg_EXgjDmWFm40vDY8BESQH_kmWc",
+    "githubLink": "https://github.com/DennysLemoine/Debugguer_Optimiser_un_site_de_photographe"
+  },
+
+  {
+    "id": 4,
+    "name": "Kasa",
+    "description": "Je suis développeur front-end en freelance. J'ai été recruté pour développer la nouvelle plateforme web de Kasa. Le site a été codé y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, souhaite une refonte totale pour passer à une stack complète en Javascript avec NodeJS côté back, et React côté front.",
+    "problematique": "Découverte et apprentissage de React.js afin de réaliser tout le front du site depuis la maquette.",
+    "competences": "Découpage logique du dossier frontend, utilisation de Lazy/Suspense, utilisation de différents composants, hooks useState et useEffect, traitement des données depuis un fichier JSON.",
+    "image_pp":
+    "https://drive.google.com/uc?id=1ARnP7cTvp9RwPLkAYkTYgZ13ry-TiNCw",
+    "image_banner": "https://drive.google.com/uc?id=1HS7E0AQ3ZCIShvVTGTCixXEFvMVHLMJf",
+    "githubLink": "https://github.com/DennysLemoine/Kasa"
+  },
+
+  {
+    "id": 5,
+    "name": "Mon Vieux Grimoire",
+    "description": "Je suis développeur back-end en freelance depuis un an dans le région de Lille. J'aurais pour mission de réaliser le backend du frontend de Kevin, pour une petite chaîne de librairies, qui souhaite ouvrir un site de référencement et de notations de livres.",
+    "problematique": "Réalisation d'un backend pour la première fois avec des attentes techniques, comme l'authentification d'utilisateurs, publication/modification/suppression d'un objet, renforcement de la sécurité.",
+    "competences": "Réalisation d'un backend avec le MERN, création d'une base de donnée, models (schema mongoose), CRUD, controllers ainsi que des middlewares, Bcrypt (hash, compare), Jsonwebtoken (sign, verify), Multer pour les images ainsi que Sharp pour l'optimisation de ces dernières, Validator (email/password), Express Rate Limit, Mongo Sanitize et .env.",
+    "image_pp": "https://drive.google.com/uc?id=1u0BXSt4XRQQYp1cDCQGcPSJnUNg4fz24",
+    "image_banner": "https://drive.google.com/uc?id=1kJXeXWIw0SUo3Do51BLcedvuEqS6zS0I",
+    "githubLink": "https://github.com/DennysLemoine/Mon_Vieux_Grimoire"
+  }
+]
