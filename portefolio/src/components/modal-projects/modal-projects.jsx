@@ -16,7 +16,19 @@ const Modal = ({ isOpen, closeModal, data }) => {
             // Scroll to top when the modal opens
             modalRef.current.scrollTop = 0;
         }
-    }, [isOpen]);
+
+        const handleKeyDown = (event) => {
+            if (event.key === "Escape") {
+                closeModal();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+
+        return () => {
+            document.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [isOpen, closeModal]);
 
     if (!isOpen) {
         return null;

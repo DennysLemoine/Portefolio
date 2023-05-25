@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Portefolio Architecte",
-    "description": "Je suis développeur front-end dans l'agence ArchiWebos.Ayant terminé mon dernier projet avec de l'avance, je suis envoyé en renfort dans une équipe qui travaille sur la conception du site portefolio d'une artichiecte d'intérieur.",
+    "description": "Je suis développeur front-end dans l'agence ArchiWebos.Ayant terminé mon dernier projet avec de l'avance, je suis envoyé en renfort dans une équipe qui travaille sur la conception du site portefolio d'une architecte d'intérieur.",
     "problematique": "Apprentissage de Javascript vanilla",
     "competences": "Gestion/Traitement des données, appels API, utilisation des fetchs, authentification de l'utilisateur, création de modales, suppression de travaux, l'envoi de nouveaux travaux.",
     "image_pp": "https://drive.google.com/uc?id=1aYk0Rsi18zpLnNVLRbAG_Bux-QhiQdr-",
@@ -48,9 +48,9 @@
   {
     "id": 5,
     "name": "Mon Vieux Grimoire",
-    "description": "Je suis développeur back-end en freelance depuis un an dans le région de Lille. J'ai pour habitude de travailler avec Kevin, un développeur front-end plus expérimenté, et qui me contacte pour me proposer un travail avec lui. J'aurais pour mission de réaliser le backend du frontend de Kevin, pour une petite chaîne de librairies, qui souhaite ouvrir un site de référencement et de notations de livres.",
-    "problematique": "Réalisation d'un backend pour la première fois avec des attentes techniques, comme l'authentification d'utilisateurs, publication/modification/suppression d'un objet, renforcement de la sécurité auprès de la BD.",
-    "competences": "Apprentissage de la réalisation d'un backend avec le MERN, création d'une base de donnée, création de models (schema mongoose), CRUD, création de controllers ainsi que des middlewares, Bcrypt (hash, compare), Jsonwebtoken (sign, verify), Multer pour la gestion des images ainsi que Sharp pour l'optimisation de ces dernières, Validator (email/password), Express Rate Limit, Mongo Sanitize et .env.",
+    "description": "Je suis développeur back-end en freelance depuis un an dans le région de Lille. J'aurais pour mission de réaliser le backend du frontend de Kevin, pour une petite chaîne de librairies, qui souhaite ouvrir un site de référencement et de notations de livres.",
+    "problematique": "Réalisation d'un backend pour la première fois avec des attentes techniques, comme l'authentification d'utilisateurs, publication/modification/suppression d'un objet, renforcement de la sécurité.",
+    "competences": "Réalisation d'un backend avec le MERN, création d'une base de donnée, models (schema mongoose), CRUD, controllers ainsi que des middlewares, Bcrypt (hash, compare), Jsonwebtoken (sign, verify), Multer pour les images ainsi que Sharp pour l'optimisation de ces dernières, Validator (email/password), Express Rate Limit, Mongo Sanitize et .env.",
     "image_pp": "https://drive.google.com/uc?id=1u0BXSt4XRQQYp1cDCQGcPSJnUNg4fz24",
     "image_banner": "https://drive.google.com/uc?id=1kJXeXWIw0SUo3Do51BLcedvuEqS6zS0I",
     "githubLink": "https://github.com/DennysLemoine/Mon_Vieux_Grimoire"
