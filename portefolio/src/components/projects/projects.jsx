@@ -26,7 +26,7 @@ function Projects({data}) {
             <span className='sphere11'/>
             <span className='sphere12'/>
             <div className='containerH2'>
-                <h2>MES PROJETS</h2>
+                <h2 id='projets'>MES PROJETS</h2>
                 <img src={blueprintLogo} alt="Logo blueprint"/>
             </div>
             <div className='containerProjects'>

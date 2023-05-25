@@ -1,10 +1,11 @@
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll';
+import About from "../../components/about/about";
+import Skills from "../../components/skills/skills";
+import Projects from "../../components/projects/projects"
 
 import header from './header.css'
 
 import yuhiLogo from '../../assets/logo_yh.png'
-import linkedinLogo from '../../assets/linkedin.png'
-import githubLogo from '../../assets/github.png'
 
 function Header() {
 
@@ -12,23 +13,14 @@ function Header() {
         <header className='header'>
             <img className='yuhiLogo' src={yuhiLogo} alt="Logo du site internet de Dennys Lemoine"/>
             <nav className='nav'>
-                {/*<button onClick={() => sectionRef.current.scrollIntoView({ behavior: 'smooth' })}>*/}
-                {/*    À propos*/}
-                {/*</button>*/}
-                {/*<button onClick={() => sectionRef.current.scrollIntoView({ behavior: 'smooth' })}>*/}
-                {/*    À propos*/}
-                {/*</button>*/}
-                {/*<button onClick={() => sectionRef.current.scrollIntoView({ behavior: 'smooth' })}>*/}
-                {/*    À propos*/}
-                {/*</button>*/}
                 <div className='divLinkOrange'>
-                    <Link to='à propos' className='navLinkOrange'>à propos</Link>
+                    <Link to="aPropos" spy={true} smooth={true} offset={-70} duration={500} className="navLinkOrange">à propos</Link>
                 </div>
                 <div className='divLinkGreen'>
-                    <Link to='mes compétences' className='navLinkGreen'>compétences</Link>
+                    <Link to="competences" spy={true} smooth={true} offset={-70} duration={500} className="navLinkGreen">compétences</Link>
                 </div>
                 <div className='divLinkBlue'>
-                    <Link to='mes projets' className='navLinkBlue'>mes projets</Link>
+                    <Link to="projets" spy={true} smooth={true} offset={-70} duration={500} className="navLinkBlue">mes projets</Link>
                 </div>
             </nav>
         </header>

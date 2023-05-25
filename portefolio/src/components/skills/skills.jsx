@@ -48,7 +48,7 @@ function Skills() {
             <span className='sphere08'/>
             <span className='sphere09'/>
             <div className='containerH2'>
-                <h2>COMPÉTENCES</h2>
+                <h2 id='competences'>COMPÉTENCES</h2>
                 <img src={skillLogo} alt="Logo créatif"/>
             </div>
             <div className='containerSkills'>
