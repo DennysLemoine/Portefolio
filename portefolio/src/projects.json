@@ -5,8 +5,8 @@
     "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS, fonctionnelle de manière responsive.",
     "problematique": "Apprendre à respecter la maquette donnée pour la réalisation du site, en parallèle de l'apprentissage de HTML/CSS",
     "competences": "Base HTML et CSS, rendre le site responsive.",
-    "image_pp": "https://drive.google.com/uc?id=1pNOOIuQ46pSakrJ_5r5qEq-Em3vJRNGc",
-    "image_banner": "https://drive.google.com/uc?id=1TG85raHNAoE9fi_El1K8BOI1UnNvobqp",
+    "image_pp": "https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81oB_tWJsvDZqM7h8daIuIn4aMvu1Ts40fCR2lngXd79jE8e9qNgKnAS4nk56ow6biSBtUgCQk6v5I7S_MlsVUQ0pudnxw=w958-h917",
+    "image_banner": "https://lh3.googleusercontent.com/fife/APg5EOZz6vz8ZZgvbxvArxwWF0PGYIhKiUi7JN2MfvRJfozFYM6p23DZoWpkdgQP_Zp19mw1UJanRde991UVWonSw1-lOYnkFG5rt66OduZas5pCN5IfaSEnU1SxcfzOzqGgPp9A7wWWGgBnWxYc5B0sJ_kklMVgPMmK2lo9Otqb0ZzLOfhkoDLrbkKz4zPwq0wKiI1rPQHRfAxsGfAEDrfvZyOB0uELbV7MqATLw4S2MrQBRWqXwhpyyFih_N8Nr4W9a3VZfIvFWahJ7-Kh8zF13IATLYIQYQRtnA4tPHmVOHTr5gu1q-7aOuWjdbRPTq8DZChpN7FLoF16zpraMbBdlLblPBcLHJ1yGOzKOv5eUvrwe6SeJlo-A89bU5F_TpiJqoFTd9-QQw9lqyMwgetLKnFnaQdcHdbtZZT0vdqG7EC7yF9prvU3P5gwhOp5jvPCCFtvgO15_gTqtDIJC9bbSUUzPhUrc-5520huTPvbfm9BVefP12qdNsSemxkiN8WcCQoCuhEEoNlFXtcakLi4w91cvtJCdaQoJuLBoDU4NPyQ4isdHw0jEUGPsn8RzF8madhzjhh1oaE8j-Kqp6D_3G9SjKz3qcpGJTqjtR4_v-mc-GGFbTLPr8kZVuZVlXNhmtJx695hMxb4TFlrredp669kPoQfDVaqMf9bv3yB82UWOTRwX1_GmwL1vIZm9oF8GR6sX5xULIGT19WU7a8YYNbHPXbT4456Hio_l6L0AO9NzMS3aPXa5nblOX0l5YEsQpQtVPVkaithYaBMemtPXVXNiH34nID375knE_dEjSu4S_T6gDa0TzgTOcojpFS9bvmelVM1aCafoh3sY2MyPvONHIyQpxeGPSGNDmU2pFmNBEuFoYLfBp3w5yYDSmY6Dm4SXCJI8Wf21rtKRpbHd5Hx1pWRk-8A-AUrxydw0hY1VEt--lePPZ-o8NcgD7ZBOSQ5n4GQJ5AhCaAKm3BEBkC_v_tmsL7VZFf2h-UvXRSxjSTMeoJHpWw0rpPiVHy_x9B_RqVN1JnZymE2vEfJE4JgYUfwLqdumdSk1gIQiY6zQ2pAUUEofyFbwEXdTI_0UuEPlSPWnHVbydPk_V1MonxHFfIDUa4SvQiKu0BXfKJalcJONvLyyczheVG4GDm5uEB-ZiAZ15fEWp-pULrIpD08Rmze9V5NMJ5KLpViQNBQrq3cB7JssI9VWomDlCdNAmXEepWuRx54-LWfNQIOK65kSVDoNx55z10ELEb7sBhRCgXarqyUAP9ZjzJDtA6DVCQpbuEmLcBMW78sNoR86xGhcUlPpeCHjrqiErQqWJyRGkaX88fmgom76nwJVG35nyIMtrSw3VXwAntKbBtCWvZJOTATKmuGPd02AMygsKvKVIvgB_w1weOrueS5sxYBDlLVr01nQ327OzbQWoZKReqWJkur_OvdOgI5IdBLdOYsw5ua_ReBbW_r7Mce_9nBrKIQvyVLQCoJm4pUUFLPoMrFBQ=w958-h901",
     "githubLink": "https://github.com/DennysLemoine/Booki"
   },
 
@@ -51,7 +51,7 @@
     "description": "Je suis développeur back-end en freelance depuis un an dans le région de Lille. J'aurais pour mission de réaliser le backend du frontend de Kevin, pour une petite chaîne de librairies, qui souhaite ouvrir un site de référencement et de notations de livres.",
     "problematique": "Réalisation d'un backend pour la première fois avec des attentes techniques, comme l'authentification d'utilisateurs, publication/modification/suppression d'un objet, renforcement de la sécurité.",
     "competences": "Réalisation d'un backend avec le MERN, création d'une base de donnée, models (schema mongoose), CRUD, controllers ainsi que des middlewares, Bcrypt (hash, compare), Jsonwebtoken (sign, verify), Multer pour les images ainsi que Sharp pour l'optimisation de ces dernières, Validator (email/password), Express Rate Limit, Mongo Sanitize et .env.",
-    "image_pp": "https://drive.google.com/uc?id=1u0BXSt4XRQQYp1cDCQGcPSJnUNg4fz24",
+    "image_pp": "https://drive.google.com/uc?export=download&id=1u0BXSt4XRQQYp1cDCQGcPSJnUNg4fz24",
     "image_banner": "https://drive.google.com/uc?id=1kJXeXWIw0SUo3Do51BLcedvuEqS6zS0I",
     "githubLink": "https://github.com/DennysLemoine/Mon_Vieux_Grimoire"
   }
