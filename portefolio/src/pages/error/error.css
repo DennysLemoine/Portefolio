@@ -1,0 +1,34 @@
+.divError {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #e5993f;
+}
+
+.error404 {
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.errorP {
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+    margin: 0 20px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: black;
+}
+
+.divError a {
+    font-family: 'Vollkorn', serif;
+    color: #e5993f;
+    font-size: 13px;
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+}
