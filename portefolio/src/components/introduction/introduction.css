@@ -15,6 +15,16 @@
     width: 245px;
     height: 140px;
     margin-bottom: 90px;
+    animation: opacity-picture 1.25s ease-in-out;
+}
+
+@keyframes opacity-picture {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .pictureHome {
@@ -23,6 +33,7 @@
     width: 160px;
     border-radius: 50%;
     border: 4px solid white;
+    animation: picture-animation 5s infinite;
 }
 
 .sphere01 {
@@ -34,6 +45,7 @@
     border-radius: 50%;
     background: linear-gradient(#F6C961, #B82211);
     z-index: -1;
+    animation: sphere-animation01 6s infinite;
 }
 
 .sphere02 {
@@ -45,6 +57,7 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
+    animation: sphere-animation02 4s infinite;
 }
 
 
@@ -57,10 +70,69 @@
     border-radius: 50%;
     background: linear-gradient(#7ECFFF, #59208B);
     z-index: -1;
+    animation: sphere-animation03 5s infinite;
+}
+
+@keyframes picture-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 3px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation01 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation02 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, 5px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation03 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(5px, 2px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
 }
 
 .introducing {
     font-family: "Playfair Display", serif;
+    animation: opacity-introduction 3s ease-in-out;
+}
+
+@keyframes opacity-introduction {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .containerH1 {
