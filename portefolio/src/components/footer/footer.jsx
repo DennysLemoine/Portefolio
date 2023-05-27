@@ -6,7 +6,6 @@ import yuhiLogoWhite from '../../assets/logo_yh_white.png'
 import linkedinLogoWhite from '../../assets/linkedin_white.png'
 import githubLogoWhite from '../../assets/github_white.png'
 import mailLogo from '../../assets/email.png'
-import githubLogo from "../../assets/github.png";
 
 function Footer() {
 
