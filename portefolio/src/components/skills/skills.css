@@ -116,7 +116,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 80%;
-    animation: skillCss 1.15s ease-in-out;
+    animation: skillCss 1.1s ease-in-out;
 }
 
 .divSkillJs {
@@ -127,7 +127,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 60%;
-    animation: skillJavascript 1.30s ease-in-out;
+    animation: skillJavascript 1.2s ease-in-out;
 }
 
 .divSkillReact {
@@ -138,7 +138,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 60%;
-    animation: skillReact 1.45s ease-in-out;
+    animation: skillReact 1.3s ease-in-out;
 }
 
 .divSkillNode {
@@ -149,7 +149,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 35%;
-    animation: skillNode 2s ease-in-out;
+    animation: skillNode 1.4s ease-in-out;
 }
 
 .divSkillSeo {
@@ -160,7 +160,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 50%;
-    animation: skillSeo 2.15s ease-in-out;
+    animation: skillSeo 1.5s ease-in-out;
 }
 
 .divSkillPhotoshop {
@@ -171,7 +171,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 60%;
-    animation: skillPhotoshop 2.30s ease-in-out;
+    animation: skillPhotoshop 1.6s ease-in-out;
 }
 
 .divSkillInfographie {
@@ -182,7 +182,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 70%;
-    animation: skillInfographie 2.45s ease-in-out;
+    animation: skillInfographie 1.7s ease-in-out;
 }
 
 .divSkill3d {
@@ -193,7 +193,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 80%;
-    animation: skill3d 3s ease-in-out;
+    animation: skill3d 1.8s ease-in-out;
 }
 
 .containerSkill02 {
@@ -227,6 +227,7 @@
     height: 100%;
     background: linear-gradient( #F6C961, #B82211);
     border-radius: 50px;
+    animation: skills 1s;
 }
 
 .circleSkillP01 {
@@ -240,6 +241,7 @@
     background-color: #f3c65f;
     border-radius: 50px;
     border: 1px solid white;
+    animation: skills 1s;
 }
 
 .circleSkillP02 {
@@ -253,6 +255,7 @@
     background-color: #d36f36;
     border-radius: 50px;
     border: 1px solid white;
+    animation: skills 1s;
 }
 
 .circleSkillP03 {
@@ -266,6 +269,7 @@
     background-color: #b92713;
     border-radius: 50px;
     border: 1px solid white;
+    animation: skills 1s;
 }
 
 .skillBts {
@@ -274,6 +278,7 @@
     left: 145px;
     font-size: 16px;
     color: #E79A3F;
+    animation: skills 1s;
 }
 
 .skill3d {
@@ -282,6 +287,7 @@
     left: 120px;
     font-size: 16px;
     color: #E79A3F;
+    animation: skills 1s;
 }
 
 .skillDev {
@@ -290,6 +296,7 @@
     left: 105px;
     font-size: 16px;
     color: #E79A3F;
+    animation: skills 1s;
 }
 
 .containerSkillsButtons {
@@ -464,5 +471,14 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes skills {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
     }
 }
