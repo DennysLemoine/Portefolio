@@ -24,6 +24,7 @@
     border-radius: 50%;
     background: linear-gradient(#F6C961, #B82211);
     z-index: -1;
+    animation: sphere-animation07 5s infinite;
 }
 
 .sphere08 {
@@ -35,6 +36,7 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
+    animation: sphere-animation08 12s infinite;
 }
 
 
@@ -46,7 +48,7 @@
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(#7ECFFF, #59208B);
-    z-index: -1;
+    z-index: -1;animation: sphere-animation09 15s infinite;
 }
 
 .containerH2 {
@@ -338,6 +340,42 @@
 
 .hide {
     display: none;
+}
+
+@keyframes sphere-animation07 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0px, 7px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation08 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(25px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation09 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 30px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
 }
 
 @keyframes skillHtml {
