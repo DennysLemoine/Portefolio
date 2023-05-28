@@ -3,10 +3,34 @@ import profilPicture from "../../assets/dennys_pp.webp";
 import introduction from './introduction.css';
 
 function Introduction() {
+    const introRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    introRef.current.classList.add('fade-in');
+                } else {
+                    introRef.current.classList.remove('fade-in');
+                }
+            });
+        });
+
+        if (introRef.current) {
+            observer.observe(introRef.current);
+        }
+
+        // Nettoyer l'observer lorsque le composant est démonté
+        return () => {
+            if (introRef.current) {
+                observer.unobserve(introRef.current);
+            }
+        };
+    }, []);
 
     return (
         <>
-            <section className='sectionIntroducing'>
+            <section className='sectionIntroducing' ref={introRef}>
                 <div className='containerPictureHome'>
                     <img className='pictureHome' src={profilPicture} alt="Photo de Dennys Lemoine" />
                     <span className='sphere01' />

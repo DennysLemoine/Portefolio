@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: column;
     width: 95%;
-    padding-top: 50px;
+    padding-top: 70px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 150px;
+    margin-bottom: 160px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.sectionIntroducing.fade-in {
+    opacity: 1;
 }
 
 .containerPictureHome {
@@ -57,7 +63,7 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
-    animation: sphere-animation02 4s infinite;
+    animation: sphere-animation02 5s infinite;
 }
 
 
@@ -70,7 +76,7 @@
     border-radius: 50%;
     background: linear-gradient(#7ECFFF, #59208B);
     z-index: -1;
-    animation: sphere-animation03 5s infinite;
+    animation: sphere-animation03 6s infinite;
 }
 
 @keyframes picture-animation {
@@ -123,7 +129,7 @@
 
 .introducing {
     font-family: "Playfair Display", serif;
-    animation: opacity-introduction 3s ease-in-out;
+    animation: opacity-introduction 2.5s ease-in-out;
 }
 
 @keyframes opacity-introduction {
