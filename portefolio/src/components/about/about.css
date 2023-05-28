@@ -1,3 +1,4 @@
+
 .sectionAbout {
     position: relative;
     display: flex;
@@ -8,7 +9,13 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 150px;
+    margin-bottom: 240px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.sectionAbout.fade-in {
+    opacity: 1;
 }
 
 .containerH2 {
@@ -61,6 +68,7 @@
     border-radius: 50%;
     background: linear-gradient(#F6C961, #B82211);
     z-index: -1;
+    animation: sphere-animation04 7s infinite;
 }
 
 .sphere05 {
@@ -72,6 +80,7 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
+    animation: sphere-animation05 11s infinite;
 }
 
 
@@ -84,4 +93,45 @@
     border-radius: 50%;
     background: linear-gradient(#7ECFFF, #59208B);
     z-index: -1;
+    animation: sphere-animation06 6s infinite;
+}
+
+@keyframes sphere-animation04 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation05 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-20px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation06 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 5px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.sphereContainer.fade-in {
+    opacity: 1;
 }

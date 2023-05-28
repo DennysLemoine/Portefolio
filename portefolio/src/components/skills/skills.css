@@ -7,6 +7,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.sectionSkills.fade-in {
+    opacity: 1;
 }
 
 .sphere07 {
@@ -18,6 +24,7 @@
     border-radius: 50%;
     background: linear-gradient(#F6C961, #B82211);
     z-index: -1;
+    animation: sphere-animation07 5s infinite;
 }
 
 .sphere08 {
@@ -29,6 +36,7 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
+    animation: sphere-animation08 12s infinite;
 }
 
 
@@ -40,7 +48,7 @@
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(#7ECFFF, #59208B);
-    z-index: -1;
+    z-index: -1;animation: sphere-animation09 15s infinite;
 }
 
 .containerH2 {
@@ -99,6 +107,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 80%;
+    animation: skillHtml 1s ease-in-out;
 }
 
 .divSkillCss {
@@ -109,6 +118,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 80%;
+    animation: skillCss 1.1s ease-in-out;
 }
 
 .divSkillJs {
@@ -119,6 +129,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 60%;
+    animation: skillJavascript 1.2s ease-in-out;
 }
 
 .divSkillReact {
@@ -129,6 +140,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 60%;
+    animation: skillReact 1.3s ease-in-out;
 }
 
 .divSkillNode {
@@ -139,6 +151,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 35%;
+    animation: skillNode 1.4s ease-in-out;
 }
 
 .divSkillSeo {
@@ -149,6 +162,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 50%;
+    animation: skillSeo 1.5s ease-in-out;
 }
 
 .divSkillPhotoshop {
@@ -159,6 +173,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 60%;
+    animation: skillPhotoshop 1.6s ease-in-out;
 }
 
 .divSkillInfographie {
@@ -169,6 +184,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 70%;
+    animation: skillInfographie 1.7s ease-in-out;
 }
 
 .divSkill3d {
@@ -179,6 +195,7 @@
     padding: 3px 10px;
     background: linear-gradient(to right, #F6C961, #B82211);
     width: 80%;
+    animation: skill3d 1.8s ease-in-out;
 }
 
 .containerSkill02 {
@@ -212,6 +229,7 @@
     height: 100%;
     background: linear-gradient( #F6C961, #B82211);
     border-radius: 50px;
+    animation: skills 1s;
 }
 
 .circleSkillP01 {
@@ -225,6 +243,7 @@
     background-color: #f3c65f;
     border-radius: 50px;
     border: 1px solid white;
+    animation: skills 1s;
 }
 
 .circleSkillP02 {
@@ -238,6 +257,7 @@
     background-color: #d36f36;
     border-radius: 50px;
     border: 1px solid white;
+    animation: skills 1s;
 }
 
 .circleSkillP03 {
@@ -251,6 +271,7 @@
     background-color: #b92713;
     border-radius: 50px;
     border: 1px solid white;
+    animation: skills 1s;
 }
 
 .skillBts {
@@ -259,6 +280,7 @@
     left: 145px;
     font-size: 16px;
     color: #E79A3F;
+    animation: skills 1s;
 }
 
 .skill3d {
@@ -267,6 +289,7 @@
     left: 120px;
     font-size: 16px;
     color: #E79A3F;
+    animation: skills 1s;
 }
 
 .skillDev {
@@ -275,6 +298,7 @@
     left: 105px;
     font-size: 16px;
     color: #E79A3F;
+    animation: skills 1s;
 }
 
 .containerSkillsButtons {
@@ -316,4 +340,183 @@
 
 .hide {
     display: none;
+}
+
+@keyframes sphere-animation07 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0px, 7px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation08 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(25px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation09 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 30px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes skillHtml {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skillCss {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skillJavascript {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skillReact {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skillNode {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 35%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skillSeo {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes skillPhotoshop {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skillInfographie {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skill3d {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes skills {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
 }

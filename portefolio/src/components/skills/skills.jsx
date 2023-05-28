@@ -6,6 +6,31 @@ import skillLogo from '../../assets/creative.png'
 
 function Skills() {
 
+    const skillRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    skillRef.current.classList.add('fade-in');
+                } else {
+                    skillRef.current.classList.remove('fade-in');
+                }
+            });
+        });
+
+        if (skillRef.current) {
+            observer.observe(skillRef.current);
+        }
+
+        // Nettoyer l'observer lorsque le composant est démonté
+        return () => {
+            if (skillRef.current) {
+                observer.unobserve(skillRef.current);
+            }
+        };
+    }, []);
+
     const [visibleDiv, setVisibleDiv] = useState('div1');
     const touchStartRef = useRef(null);
 
@@ -43,7 +68,7 @@ function Skills() {
     }, []);
 
     return (
-        <section className='sectionSkills'>
+        <section className='sectionSkills' ref={skillRef}>
             <span className='sphere07'/>
             <span className='sphere08'/>
             <span className='sphere09'/>

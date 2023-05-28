@@ -41,26 +41,26 @@ const Modal = ({isOpen, closeModal, data}) => {
     };
 
     return (
-        <div className="modal" onClick={closeModal}>
-            <span className='backgroundColorModal'></span>
-            <div className="modal-content" onClick={handleContentClick} ref={modalRef}>
-                <button className="modal-close" onClick={closeModal}>
-                    <FontAwesomeIcon icon={faTimes}/>
-                </button>
-                <span className='bannerContainer'>
+            <div className="modal" onClick={closeModal}>
+                <span className='backgroundColorModal'></span>
+                <div className="modal-content" onClick={handleContentClick} ref={modalRef}>
+                    <button className="modal-close" onClick={closeModal}>
+                        <FontAwesomeIcon icon={faTimes}/>
+                    </button>
+                    <span className='bannerContainer'>
                     <img className='bannerImg' src={image_banner} alt="Image bannière du projet"/>
                 </span>
-                <h2>DESCRIPTION</h2>
-                <p>{description}</p>
-                <h2>PROBLEMATIQUE</h2>
-                <p>{problematique}</p>
-                <h2>COMPETENCES APPRISES</h2>
-                <p>{competences}</p>
-                <Link to={githubLink}>
-                    <img className='githubLogo' src={gitHubLogo} alt="Logo GitHub"/>
-                </Link>
+                    <h2>DESCRIPTION</h2>
+                    <p>{description}</p>
+                    <h2>PROBLEMATIQUE</h2>
+                    <p>{problematique}</p>
+                    <h2>COMPETENCES APPRISES</h2>
+                    <p>{competences}</p>
+                    <Link to={githubLink}>
+                        <img className='githubLogo' src={gitHubLogo} alt="Logo GitHub"/>
+                    </Link>
+                </div>
             </div>
-        </div>
     );
 };
 
