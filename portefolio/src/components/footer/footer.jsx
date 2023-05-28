@@ -14,13 +14,13 @@ function Footer() {
             <img className='logoYuhiWhite' src={yuhiLogoWhite} alt="Logo de Dennys Lemoine"/>
             <p>Designed & Build by Dennys Lemoine</p>
             <div>
-                <Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" className='footerLogo'>
+                <Link to="https://www.linkedin.com/in/dennys-lemoine-b4873313b/" target="_blank" className='footerLogo'>
                     <img src={linkedinLogoWhite} alt="Logo/Lien Linkedin"/>
                 </Link>
-                <Link to="mailto:dennys.lemoine.1@gmail.com" className='footerLogo'>
+                <Link to="mailto:dennys.lemoine.1@gmail.com" target="_blank" className='footerLogo'>
                     <img src={mailLogo} alt="Logo/Lien Mail"/>
                 </Link>
-                <Link to="https://github.com/DennysLemoine/" className='footerLogo'>
+                <Link to="https://github.com/DennysLemoine/" target="_blank" className='footerLogo'>
                     <img src={githubLogoWhite} alt="Logo/Lien Github"/>
                 </Link>
             </div>
