@@ -7,6 +7,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.sectionProjects.fade-in {
+    opacity: 1;
 }
 
 .sphere10 {
