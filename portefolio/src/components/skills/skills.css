@@ -320,6 +320,7 @@
     border-radius: 50%;
     width: 12px;
     height: 12px;
+    cursor: pointer;
 }
 
 .button1.active {
@@ -332,6 +333,7 @@
     border-radius: 50%;
     width: 12px;
     height: 12px;
+    cursor: pointer;
 }
 
 .button2.active {
