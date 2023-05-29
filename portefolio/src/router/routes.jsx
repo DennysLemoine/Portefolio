@@ -4,8 +4,6 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 
-import background from '../assets/Background.png'
-
 const Loading = () => <div>Loading...</div>
 
 const Home = lazy(() => import('../pages/home/home'));
