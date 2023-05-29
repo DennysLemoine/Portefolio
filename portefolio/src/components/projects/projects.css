@@ -135,3 +135,29 @@
         transform: translate(0, 0);
     }
 }
+
+@media(min-width: 650px) {
+
+    .sectionProjects {
+        width: 85%;
+    }
+
+    .containerProjects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sphere10 {
+        bottom: -65px;
+        left: 270px;
+    }
+
+    .sphere11 {
+        top: 340px;
+        right: 450px;
+    }
+
+    .sphere12 {
+        top: 75px;
+        left: 280px;
+    }
+}

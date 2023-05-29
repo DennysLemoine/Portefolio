@@ -33,7 +33,7 @@ function About() {
             <span className="sphere04" />
             <span className="sphere05" />
             <span className="sphere06" />
-            <div className="containerH2">
+            <div className="containerH2About">
                 <h2 id="aPropos">À PROPOS</h2>
                 <img src={logoAbout} alt="Logo d'information" />
             </div>

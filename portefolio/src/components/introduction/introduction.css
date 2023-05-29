@@ -172,3 +172,32 @@ h1 {
     font-family: Vollkorn, serif;
     font-size: 15px;
 }
+
+@media(min-width: 650px) {
+
+    .sectionIntroducing {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-top: 110px;
+    }
+
+    .introducing {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .introducingP {
+        text-align: justify;
+        padding-right: 30px;
+    }
+
+    .containerPictureHome {
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

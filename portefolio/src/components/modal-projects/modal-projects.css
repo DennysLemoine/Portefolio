@@ -9,6 +9,7 @@
     align-items: center; /* Aligner le contenu en haut */
     justify-content: center;
     overflow-y: auto;
+    z-index: 2;
     animation: openModal 0.5s;
 }
 
@@ -102,9 +103,21 @@
 }
 
 @media(min-width: 360px) {
-
     .modal-content {
         height: auto;
     }
+}
 
+@media(min-width: 650px) {
+    .modal-content {
+        width: 75%;
+    }
+
+    .modal-content h2 {
+        font-size: 22px;
+    }
+
+    .modal-content p {
+        font-size: 16px;
+    }
 }

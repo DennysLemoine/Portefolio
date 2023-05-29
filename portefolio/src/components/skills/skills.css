@@ -520,3 +520,14 @@
         opacity: 100%;
     }
 }
+
+@media(min-width: 650px) {
+    .sectionSkills {
+        width: 85%;
+    }
+
+    .sphere08 {
+        left: -40px;
+        top: 295px;
+    }
+}
