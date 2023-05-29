@@ -126,6 +126,16 @@
     }
 }
 
+@media(min-width: 1024px) {
+    .modal-content h2 {
+        font-size: 25px;
+    }
+
+    .modal-content p {
+        font-size: 18px;
+    }
+}
+
 @media(min-width: 1720px) {
     .modal-content {
         width: 40%;

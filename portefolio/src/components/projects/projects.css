@@ -170,6 +170,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .containerProject p {
+        font-size: 20px;
+    }
+
     .sphere10 {
         bottom: -65px;
         right: 10px;

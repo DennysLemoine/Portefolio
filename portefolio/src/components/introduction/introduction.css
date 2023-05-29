@@ -186,13 +186,10 @@ h1 {
         width: 50%;
     }
 
-    h1 {
-        font-size: 28px;
-    }
-
     .introducingP {
         text-align: justify;
         padding-right: 30px;
+        font-size: 17px;
     }
 
     .containerPictureHome {
@@ -203,6 +200,14 @@ h1 {
 }
 
 @media(min-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .introducing h2 {
+        font-size: 25px;
+    }
+
     .containerPictureHome {
         margin-bottom: 100px;
     }
