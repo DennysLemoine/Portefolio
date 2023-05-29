@@ -110,7 +110,11 @@
 
 @media(min-width: 650px) {
     .modal-content {
-        width: 75%;
+        width: 60%;
+    }
+
+    .bannerContainer {
+        height: 130px;
     }
 
     .modal-content h2 {
@@ -119,5 +123,15 @@
 
     .modal-content p {
         font-size: 16px;
+    }
+}
+
+@media(min-width: 1720px) {
+    .modal-content {
+        width: 40%;
+    }
+
+    .bannerContainer {
+        height: 160px;
     }
 }
