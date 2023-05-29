@@ -65,6 +65,7 @@
     color: #E79A3F;
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
 }
 
 .modal-content p {
@@ -98,4 +99,12 @@
     100% {
         opacity: 0;
     }
+}
+
+@media(min-width: 360px) {
+
+    .modal-content {
+        height: auto;
+    }
+
 }
