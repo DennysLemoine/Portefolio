@@ -18,20 +18,20 @@
     opacity: 1;
 }
 
-.containerH2 {
+.containerH2About {
     position: relative;
     display: inline-block;
     font-family: "Playfair Display", serif;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
     text-decoration: underline solid 1px;
 }
 
-.containerH2 h2 {
+.containerH2About h2 {
     font-weight: 400;
     font-size: 26px;
 }
 
-.containerH2 img {
+.containerH2About img {
     position: absolute;
     width: 35px;
     right: -35px;
@@ -134,4 +134,41 @@
 
 .sphereContainer.fade-in {
     opacity: 1;
+}
+
+@media(min-width: 650px) {
+    .sectionAbout {
+        width: 85%;
+    }
+
+    .containerP p {
+        font-size: 16px;
+    }
+
+    .sphere04 {
+        right: 150px;
+    }
+
+    .sphere05 {
+        top: 70px;
+        right: -40px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sphere06 {
+        bottom: 25px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .sectionAbout {
+        width: 65%;
+    }
+}
+
+@media(min-width: 1720px) {
+    .sectionAbout {
+        width: 50%;
+    }
 }

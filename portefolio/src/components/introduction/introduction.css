@@ -172,3 +172,79 @@ h1 {
     font-family: Vollkorn, serif;
     font-size: 15px;
 }
+
+@media(min-width: 650px) {
+
+    .sectionIntroducing {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-top: 110px;
+    }
+
+    .introducing {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .introducingP {
+        text-align: justify;
+        padding-right: 30px;
+    }
+
+    .containerPictureHome {
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 1024px) {
+    .containerPictureHome {
+        margin-bottom: 100px;
+    }
+
+    .pictureHome {
+        width: 280px;
+    }
+
+    .sphere01 {
+        width: 160px;
+        height: 160px;
+        top: -45px;
+        right: -45px;
+    }
+
+    .sphere02 {
+        width: 110px;
+        height: 110px;
+        top: 70px;
+        right: 200px;
+    }
+
+    .sphere03 {
+        top: 200px;
+        width: 65px;
+        height: 65px;
+        right: 10px;
+    }
+
+    .introducing p {
+        padding-right: 0;
+        width: 60%;
+    }
+}
+
+@media(min-width: 1720px){
+    .sectionIntroducing {
+        width: 85%;
+    }
+
+    .introducing p {
+        padding-right: 0;
+        width: 40%;
+    }
+}
