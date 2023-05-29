@@ -56,7 +56,7 @@ const Modal = ({isOpen, closeModal, data}) => {
                     <p>{problematique}</p>
                     <h2>COMPETENCES APPRISES</h2>
                     <p>{competences}</p>
-                    <Link to={githubLink}>
+                    <Link to={githubLink} target="_blank">
                         <img className='githubLogo' src={gitHubLogo} alt="Logo GitHub"/>
                     </Link>
                 </div>

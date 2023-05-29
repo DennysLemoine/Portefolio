@@ -24,6 +24,7 @@
     border-radius: 50%;
     background: linear-gradient(#F6C961, #B82211);
     z-index: -1;
+    animation: sphere-animation10 15s infinite;
 }
 
 .sphere11 {
@@ -35,6 +36,7 @@
     border-radius: 50%;
     background: linear-gradient(#A3F087, #026570);
     z-index: -1;
+    animation: sphere-animation11 11s infinite;
 }
 
 
@@ -46,7 +48,7 @@
     height: 70px;
     border-radius: 50%;
     background: linear-gradient(#7ECFFF, #59208B);
-    z-index: -1;
+    z-index: -1;animation: sphere-animation12 9s infinite;
 }
 
 .containerProjects {
@@ -62,6 +64,7 @@
 }
 
 .containerProject {
+    background-color: rgba(255, 255, 255, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +76,6 @@
     margin-left: auto;
     width: 100%;
     height: 175px;
-    backdrop-filter: blur(10px);
     padding: 10px;
 }
 
@@ -96,4 +98,40 @@
     font-family: Vollkorn, serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+@keyframes sphere-animation10 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(30px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation11 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-10px, 30px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes sphere-animation12 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, -10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
 }
