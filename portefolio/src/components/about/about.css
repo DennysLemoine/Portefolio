@@ -165,6 +165,19 @@
     .sectionAbout {
         width: 65%;
     }
+
+    .containerH2About h2 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .sectionAbout h3 {
+        font-size: 25px;
+    }
+
+    .containerP p {
+        font-size: 20px;
+    }
 }
 
 @media(min-width: 1720px) {
