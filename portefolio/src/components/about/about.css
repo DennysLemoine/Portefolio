@@ -160,3 +160,15 @@
         bottom: 25px;
     }
 }
+
+@media(min-width: 1024px) {
+    .sectionAbout {
+        width: 65%;
+    }
+}
+
+@media(min-width: 1720px) {
+    .sectionAbout {
+        width: 50%;
+    }
+}

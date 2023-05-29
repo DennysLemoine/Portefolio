@@ -148,16 +148,43 @@
 
     .sphere10 {
         bottom: -65px;
-        left: 270px;
+        right: 0;
+        left: auto;
     }
 
     .sphere11 {
         top: 340px;
-        right: 450px;
+        right: auto;
+        left: -90px  ;
     }
 
     .sphere12 {
         top: 75px;
-        left: 280px;
+        left: auto;
+        right: 10px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .containerProjects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sphere10 {
+        bottom: -65px;
+        right: 10px;
+        left: auto;
+    }
+
+    .sphere11 {
+        top: 190px;
+        right: auto;
+        left: -90px  ;
+    }
+
+    .sphere12 {
+        top: 45px;
+        left: auto;
+        right: 260px;
     }
 }

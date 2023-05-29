@@ -17,33 +17,6 @@
     height: 20px;
 }
 
-/*REF POUR DESKTOP : */
-
-/*.divLinkOrange {*/
-/*    display: inline-block;*/
-/*    height: 15px;*/
-/*    width: 15px;*/
-/*    background-color: #E79A3F;*/
-/*    border : 1px solid #E79A3F;*/
-/*    border-radius: 30px;*/
-/*    margin-right: 5px;*/
-/*    font-size: 10px;*/
-/*    overflow: hidden;*/
-/*}*/
-
-/*.divLinkOrange:hover {*/
-/*    width: 80px;*/
-/*    background-color: transparent;*/
-/*}*/
-
-/*.navLinkOrange {*/
-/*    display: block;*/
-/*    color: #E79A3F;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    text-decoration: none;*/
-/*}*/
-
 .divLinkOrange {
     display: flex;
     justify-content: center;
@@ -76,8 +49,6 @@
 .navLinkGreen {
     display: block;
     color: #7DC264;
-    top: 0;
-    left: 0;
     text-decoration: none;
 }
 
@@ -95,13 +66,126 @@
 .navLinkBlue {
     display: block;
     color: #649FC2;
-    top: 0;
-    left: 0;
     text-decoration: none;
 }
 
 @media(min-width: 650px) {
     .header {
         padding: 15px 30px 0 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 15px 70px 0 70px;
+    }
+
+    .nav {
+        height: 30px;
+        width: auto;
+    }
+
+    .yuhiLogo {
+        width: 100px;
+        height: 100%;
+    }
+
+    .divLinkOrange {
+        font-size: 10px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        margin-right: 15px;
+    }
+
+    .divLinkOrange:hover {
+        background-color: transparent;
+    }
+
+    .divLinkOrange:hover .navLinkOrange {
+        animation: slideHoverNav 0.75s;
+    }
+
+    .navLinkOrange {
+        color: #E79A3F;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+        font-size: 12px;
+    }
+
+    .divLinkGreen {
+        font-size: 10px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        margin-right: 15px;
+    }
+
+    .divLinkGreen:hover {
+        background-color: transparent;
+    }
+
+    .divLinkGreen:hover .navLinkGreen {
+        animation: slideHoverNav 0.75s ease-in-out;
+    }
+
+    .navLinkGreen {
+        color: #7dc264;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+        font-size: 12px;
+    }
+
+    .divLinkBlue {
+        font-size: 10px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        margin-right: 15px;
+    }
+
+    .divLinkBlue:hover {
+        background-color: transparent;
+    }
+
+    .divLinkBlue:hover .navLinkBlue {
+        animation: slideHoverNav 0.75s ease-in-out;
+    }
+
+    .navLinkBlue {
+        color: #649fc2;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+        font-size: 12px;
+    }
+
+    @keyframes slideHoverNav {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+
+    @keyframes OpacityNavHover {
+        0% {
+            opacity: 100%;
+        }
+        100% {
+            opacity: 0;
+        }
     }
 }
